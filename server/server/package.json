@@ -1,0 +1,27 @@
+{
+  "name": "docker_web_app",
+  "version": "1.0.0",
+  "description": "Sample website",
+  "author": "Luc Olsthoorn",
+  "main": "server.js",
+  "scripts": {
+    "start": "babel-node --presets es2015 server/server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "path": "0.12.7",
+    "mongodb":"latest",
+    "body-parser":"latest",
+    "graphql-to-mongodb": "latest",
+    "express-graphql": "latest",
+    "graphql":"latest",
+    "cors":"latest",
+    "sanitizer":"latest"
+  },
+  "devDependencies" :{
+    "babel-cli": "latest",
+    "babel-core": "latest",
+    "babel-preset-es2015": "latest"
+  }
+
+}
